@@ -20,7 +20,8 @@ export function CarsList() {
     return (
         <div>
             {cars.length > 0 ? (
-                cars.map((car) => (
+                cars.map((car) => (git add .
+
                     
                     <CarCard key={car.id} car={car}/>
                 ))
