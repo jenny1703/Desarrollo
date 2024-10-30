@@ -1,0 +1,74 @@
+.crud-form-page {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.car-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.car-form-row {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.icon {
+    font-size: 20px;
+    color: #b0b0b0;
+    margin-right: 10px;
+}
+
+.car-form-row input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+    outline: none;
+}
+
+.car-form-row input:focus {
+    border: 1px solid #010101; 
+    background-color: #e8f5e9; 
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.submit-button, .delete-button {
+    flex: 1; /* Ajusta el ancho de los botones para que ocupen el espacio disponible */
+    padding: 12px;
+    background-color: transparent; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: transparent;
+}
+
+.delete-button {
+    background-color: transparent;
+}
+
+.delete-button:hover {
+    background-color:transparent;
+}

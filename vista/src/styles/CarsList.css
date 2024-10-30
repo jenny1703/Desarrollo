@@ -1,0 +1,63 @@
+.car-list-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #FAFAFA; /* Color de fondo ligero */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+}
+
+.car-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #555; /* Color de texto más oscuro para mayor legibilidad */
+}
+
+.car-table thead {
+    background-color: #492fde;
+    color: white;
+    font-size: 18px; /* Tamaño de fuente ligeramente más grande */
+}
+
+.car-table th, .car-table td {
+    padding: 12px 20px; /* Espaciado interno para mejor separación */
+    border-bottom: 1px solid #E280BE;
+    text-align: left;
+    font-size: 16px; /* Tamaño de fuente consistente */
+}
+
+.car-table tbody tr {
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.car-table tbody tr:hover {
+    background-color: #f3f3f3;
+}
+
+.edit-button, .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 6px 8px; /* Espaciado adicional */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.edit-button {
+    color: #00A0E3;
+    background-color: rgba(0, 160, 227, 0.1); /* Fondo sutil */
+}
+
+.edit-button:hover {
+    background-color: rgba(0, 160, 227, 0.2); /* Hover con más contraste */
+}
+
+.delete-button {
+    color: #FF5A5A;
+    background-color: rgba(255, 90, 90, 0.1);
+}
+
+.delete-button:hover {
+    background-color: rgba(255, 90, 90, 0.2);
+}
